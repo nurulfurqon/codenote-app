@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --foreground-default: 255, 255, 255;
+  --background-default: 17, 22, 38;
+}
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-default: 255, 255, 255;
+    --background-default: 17, 22, 38;
+  }
+} */
+
+body {
+  color: rgb(var(--foreground-default));
+  background: rgb(var(--background-default));
+}
